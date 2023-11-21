@@ -10,4 +10,46 @@ h1 {
   color: #333;
 }
 
+ul{
+  display:flex;
+  flex-wrap: wrap;
+}
 
+#listaUsuarios {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.tarjeta {
+  display: flex;
+  flex-direction: column;
+  width:500px;
+  height: auto;
+  background-color:rgb(255, 248, 248);
+  border: solid 3px rgb(255, 248, 248);
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.datosPersonales{
+  border: solid 1px black;
+  width: 100%; 
+  background-color: rgb(255, 248, 248);
+  line-height:0.6 ;
+}
+
+.datos{
+  display: flex;
+  background-color: rgb(255, 248, 248);
+}
+
+img{
+  height: 100px;
+  width: 100px;
+}
+
+span{
+  font-weight: bolder;
+}
